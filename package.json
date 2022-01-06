@@ -1,0 +1,21 @@
+{
+  "name": "mocha-chai-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test/converter.js",
+    "start": "node app/server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.4",
+    "express": "^4.17.2",
+    "mocha": "^9.1.3",
+    "request": "^2.88.2"
+  }
+}
