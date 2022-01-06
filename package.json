@@ -7,7 +7,7 @@
     "test": "test"
   },
   "scripts": {
-    "test": "mocha test/converter.js",
+    "test": "mocha test/server.js",
     "start": "node app/server.js"
   },
   "author": "",
